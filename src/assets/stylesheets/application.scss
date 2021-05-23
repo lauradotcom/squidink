@@ -1,8 +1,13 @@
 @import "components/__components";
 @import "pages/__pages";
+@import "utilities/variables";
+
+
+//Global Styles
 
 body {
   font-family: Helvetica, Arial, sans-serif;
+  background: #FBFCF5;
   padding: 0;
   margin: 0;
 }

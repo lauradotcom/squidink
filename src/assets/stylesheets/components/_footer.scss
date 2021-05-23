@@ -1,15 +1,47 @@
+@import "../utilities/variables";
+
 footer {
   
   width: 100%;
-  height: 2em;
+  height: auto;
   line-height: 2em;
-  color: white;
+  color: $neutralOffWhite;
   text-align: center;
-  background-color: darkgray;
-
-  p {
-    font-size: 1em;
+  //background-color: $squidInkBlue;
+  padding-top: 1.5rem;
+  svg {
+    margin-bottom: 0;
+    display: block;
+  }
+  img {
+    margin: 0 auto;
+  }
+  h2 {
     margin: 0;
   }
+  p {
+    font-size: 0.75em;
+    margin: 0;
+  }
+  ul {
+    text-transform: uppercase;
+    list-style: none;
+    padding: 0;
+  }
+  li:hover {
+    color: $lightMermistaGreen;
+  }
+}
 
+.contents {
+  background-color: $squidInkBlue;
+  color: $neutralOffWhite;
+  margin: 0;
+  padding: 2%;
+  text-align: center;
+}
+
+.copyright {
+  background-color: $squidInkBlue;
+  height: 2rem;
 }
