@@ -1,12 +1,13 @@
+@import "base/__base";
 @import "components/__components";
 @import "pages/__pages";
-@import "utilities/variables";
+@import "utilities/__utilities";
 
 
 //Global Styles
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: $fontFamily-sans;
   background: #FBFCF5;
   padding: 0;
   margin: 0;
